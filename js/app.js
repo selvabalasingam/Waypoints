@@ -1,5 +1,6 @@
-var color = 'green';
-var waypoint = new Waypoint({
+$(document).ready(function(){
+  var color = 'green';
+  var waypoint = new Waypoint({
   element: document.querySelector('.three'),
   handler: function(direction) {
     var nav = document.querySelector('nav');
@@ -12,9 +13,9 @@ var waypoint = new Waypoint({
       }
     }
   }
-});
+  });
 
-var imageWaypoint = new Waypoint({
+  var imageWaypoint = new Waypoint({
   element: document.querySelector('.image'),
   handler: function(direction) {
     var nav = document.querySelector('nav');
@@ -24,3 +25,5 @@ var imageWaypoint = new Waypoint({
   },
   offset: 'bottom-in-view'
 });
+});
+
