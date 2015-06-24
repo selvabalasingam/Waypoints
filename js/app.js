@@ -1,11 +1,11 @@
 $(document).ready(function(){
   var color = 'green';
   var waypoint = new Waypoint({
-  element: document.querySelector('.three'),
+  element: document.querySelector('.five'),
   handler: function(direction) {
     var nav = document.querySelector('nav');
     var background = nav.style.background;
-    if (direction === 'up') {
+    if (direction === 'down') {
       if (background === 'green') {
         nav.style.background = 'orange';
       } else {

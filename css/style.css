@@ -1,0 +1,43 @@
+body {
+	margin: 0; /*-- This removes the red border around the white titleBar--*/
+}
+
+.top-navigation {
+  background-color: #fff;
+  position: fixed; /* the top white bar with links will stay put as you scroll down the page! */
+  width: 100%;
+  z-index: 9999; /* large zIndex value added to insure the nav stays on top of other elements now that it is fixed */
+  border-bottom: 1px solid #DDD; /* this adds a subtle border when you scroll across a white background*/
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.top-navigation .links { /* make the links align to the right */
+    float: right;
+    font-family: helvetica, verdana, sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.top-navigation .links li { /* make the links align horizontally */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.top-navigation .links li:hover { /* to make the links have a pointer */
+  cursor: pointer;
+  color: black;
+}
+
+.top-navigation .links li.active { /* to make the links change color */
+  color: white;
+  font-weight: 500;
+}
+
+
