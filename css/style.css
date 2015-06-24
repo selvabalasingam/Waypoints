@@ -3,7 +3,7 @@ body {
 }
 
 .top-navigation {
-  background-color: #fff;
+  opacity:0.5;
   position: fixed; /* the top white bar with links will stay put as you scroll down the page! */
   width: 100%;
   z-index: 9999; /* large zIndex value added to insure the nav stays on top of other elements now that it is fixed */
@@ -20,7 +20,7 @@ body {
 .top-navigation .links { /* make the links align to the right */
     float: right;
     font-family: helvetica, verdana, sans-serif;
-    color: black;
+    color: yellow;
     font-size: 16px;
     margin-top: 25px;
 }
@@ -40,4 +40,14 @@ body {
   font-weight: 500;
 }
 
+.top-navigation .links li.active:hover {
+	color: black;
+
+}
+
+.container {
+	display: inline-block;
+	margin: 70px 40px;
+	font-family: helvetica, sans-serif;
+}
 
