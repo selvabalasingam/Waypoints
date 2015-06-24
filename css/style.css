@@ -20,7 +20,7 @@ body {
 .top-navigation .links { /* make the links align to the right */
     float: right;
     font-family: helvetica, verdana, sans-serif;
-    color: #838994;
+    color: black;
     font-size: 16px;
     margin-top: 25px;
 }
