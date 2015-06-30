@@ -51,3 +51,28 @@ body {
 	font-family: helvetica, sans-serif;
 }
 
+/* Footer */
+
+hr { /* Styling for the line above "Join us on..." */
+  border: 0;
+  border-top: 1.5px solid #eaebec;
+  margin: 1.313rem 4rem;
+}
+
+.copyright li {
+  padding-left: 20em;
+}
+
+.content .otherlinks li {
+  display: inline-block; /* to have everything on the same line */
+  font-family: helvetica, verdana, sans-serif;
+  color: black;
+  font-size: 12px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.otherlinks li:hover { /* to make the links have a pointer */
+  cursor: pointer;
+  color: green;
+}
